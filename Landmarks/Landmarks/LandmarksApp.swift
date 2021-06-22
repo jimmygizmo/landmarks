@@ -11,8 +11,9 @@ import SwiftUI
 struct LandmarksApp: App {
     var body: some Scene {
         WindowGroup {
-            //ContentView()
-            CircleImage()
+            ContentView()
+            //CircleImage()
+            //MapView()
         }
     }
 }
@@ -23,7 +24,7 @@ struct LandmarksApp: App {
 // from, but what is the true terminology?
 // 'body' seems to be a very common element. What does 'some' mean
 // in swift? Does that just mean that it will be an instance of
-// the Scene class? Do we all Scene a class? Much to be learned
+// the Scene class? Do we call Scene a class? Much to be learned
 // about Swift. I'll try to answer all of these in forthcoming
 // comments as we go.
 // What are the best ways to comment code in Swift?
