@@ -3,6 +3,9 @@
 # easy reference access or until any of them may be added to the project and repo.
 tutorial
 
+# MacOS finder files
+.DS_Store
+
 
 # ######## - ABOVE HERE: Jimmy Gizmo custom or project-specific patterns
 # ######## - BELOW HERE: GitHub Xcode .gitignore Template
